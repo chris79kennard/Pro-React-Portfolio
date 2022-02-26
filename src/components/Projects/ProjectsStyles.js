@@ -7,6 +7,7 @@ export const Img = styled.img`
   overflow: hidden;
 `
 
+
 export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -14,6 +15,7 @@ padding: 3rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
+overflow: hidden;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -27,6 +29,7 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  overflow: hidden;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -35,6 +38,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  overflow: hidden;
 
 `;
 

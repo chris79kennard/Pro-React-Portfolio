@@ -4,17 +4,17 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Hero = () => (
 <Section row nopadding>
   <LeftSection>
     <SectionTitle main center>
-      Hi, <br/> I'm Chris,<br/>
-      web developer
+      Hi! <br/> I'm Chris,<br/>
+      Web Developer
     </SectionTitle>
     <SectionText>
       i wanna be the very best like no one ever was, to catch em all is my main quest to train them is my causeeeee
     </SectionText>
-    <Button onClick={() => window.location = "https://docs.google.com/document/d/17gOiLylLV4PYGOSKBJqceWZs88y890e-aKR_nc6y6Gc/edit?usp=sharing"}>Click for Resume</Button>
+    <Button onClick={() => window.location = "https://docs.google.com/document/d/17gOiLylLV4PYGOSKBJqceWZs88y890e-aKR_nc6y6Gc/edit?usp=sharing"}>Resume</Button>
   </LeftSection>
 </Section>
 );
