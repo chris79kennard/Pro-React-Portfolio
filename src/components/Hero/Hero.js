@@ -12,9 +12,9 @@ const Hero = () => (
       Web Developer
     </SectionTitle>
     <SectionText>
-      i wanna be the very best like no one ever was, to catch em all is my main quest to train them is my causeeeee
+      Front End Developer / CSS Expert
     </SectionText>
-    <Button onClick={() => window.location = "https://docs.google.com/document/d/17gOiLylLV4PYGOSKBJqceWZs88y890e-aKR_nc6y6Gc/edit?usp=sharing"}>Resume</Button>
+    <Button onClick={() => window.location = "https://docs.google.com/document/d/17gOiLylLV4PYGOSKBJqceWZs88y890e-aKR_nc6y6Gc/edit?usp=sharing"}>Hire Me</Button>
   </LeftSection>
 </Section>
 );
